@@ -14,3 +14,5 @@ with st.sidebar:
     st.subheader("Settings")
     st.write("This is an example code")
     
+st.chat_input("Type your message...")
+    
