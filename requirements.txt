@@ -1,6 +1,7 @@
 langchain
 langchain-openai
 langchain-groq
+langchain_community
 streamlit
 python-dotenv
 mysql-connector-python
