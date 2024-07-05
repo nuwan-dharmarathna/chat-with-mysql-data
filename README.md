@@ -1,6 +1,6 @@
-# Chat with your mySQL Database
+Chatbot with MySQL Integration
 
-This project is a Restaurant Chatbot developed using OpenAI's API, MySQL, Python, Streamlit, and LangChain. The chatbot allows users to interact with the provided database and give the answers to related questions. This README file provides an overview of the project, setup instructions, and usage guidelines.
+This project is a chatbot designed to interact with a MySQL database to answer user queries. The chatbot uses OpenAI's API to process natural language inputs and return relevant information from the database. It is built using Python, Streamlit, and LangChain.
 
 ## Features
 
