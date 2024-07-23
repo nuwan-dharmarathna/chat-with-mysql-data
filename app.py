@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import streamlit as st
+from streamlit_chat import message as chat_msg
 
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
