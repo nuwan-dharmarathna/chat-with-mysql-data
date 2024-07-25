@@ -39,7 +39,7 @@ This project features a chatbot that leverages OpenAI’s API and LangChain to i
     -Enter your MySQL database details (host, port, username, password, database name) in the provided fields.
     -Click "Connect" to establish a connection to the local database.
 
-4.Chat with the Database:
+4. Chat with the Database:
 
     -Type your question into the chatbot interface.
     -Receive responses generated based on the data in your MySQL database.
@@ -55,7 +55,7 @@ Feel free to contribute to this project by submitting issues or pull requests. F
 
 ## References
 
-    - **alejandro-ao.com**: https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
+- **alejandro-ao.com**: https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
 
 
 
