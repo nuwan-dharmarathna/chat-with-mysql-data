@@ -1,20 +1,59 @@
-Chatbot with MySQL Integration
+# MySQL Chatbot with OpenAI API and LangChain
 
-This project is a chatbot designed to interact with a MySQL database to answer user queries. The chatbot uses OpenAI's API to process natural language inputs and return relevant information from the database. It is built using Python, Streamlit, and LangChain.
+![Chatbot Screenshot](./chatbot.png)
+
+## Overview
+
+This project features a chatbot that leverages OpenAI’s API and LangChain to interact with a MySQL database. Users can connect to a local database through a Streamlit dashboard and engage with the database using natural language queries. The chatbot also supports accessing and displaying `chat_history` for continuous and context-aware conversations.
 
 ## Features
 
-- **Interactive Chat**: Engage in natural language conversations with the chatbot.
-- **Database Integration**: Query and retrieve information from a MySQL database.
-- **User-Friendly Interface**: Simple and intuitive interface built with Streamlit.
-- **LangChain**: Utilized for efficient language model operations.
+- **Connect to Local MySQL Database**: Input database credentials in the Streamlit dashboard to establish a connection.
+- **Natural Language Queries**: Use the chatbot to issue queries to the database in natural language.
+- **Access Chat History**: The chatbot maintains and displays a history of interactions, allowing users to review previous queries and responses.
+- **Streamlit Dashboard**: Intuitive web interface for user interaction and database connection setup.
 
-## Technologies Used
+## Installation
 
-- **Python**: Core programming language for the project.
-- **Streamlit**: Framework for building the user interface.
-- **MySQL**: Database for storing restaurant data.
-- **OpenAI API**: Provides the language model for the chatbot.
-- **LangChain**: Enhances the interaction with the language model.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nuwan-dharmarathna/chat-with-mysql-data
+   cd <repository-directory>
+    ```
+2. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+## Usage
+
+1. Ensure you have an OpenAI API key and set it up in your environment variables.
+
+2. Run the Streamlit app:
+    ```bash
+    streamlit run main.py
+    ```
+3. Connect to the Database:
+    -Enter your MySQL database details (host, port, username, password, database name) in the provided fields.
+    -Click "Connect" to establish a connection to the local database.
+
+4.Chat with the Database:
+
+    -Type your question into the chatbot interface.
+    -Receive responses generated based on the data in your MySQL database.
+    -View Chat History: The chatbot maintains a history of your interactions. Access previous queries and responses -directly within the chat interface to track and revisit past conversations.
+
+## Requirements
+
+The project dependencies are listed in the `requirements.txt` file. Ensure all packages are installed to guarantee the chatbot functions correctly.
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## References
+    -**alejandro-ao.com:** https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
+
 
 
