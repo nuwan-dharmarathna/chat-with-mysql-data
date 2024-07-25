@@ -37,13 +37,18 @@ This project features a chatbot that leverages OpenAI’s API and LangChain to i
 3. Connect to the Database:
 
     -Enter your MySQL database details (host, port, username, password, database name) in the provided fields.
+    
     -Click "Connect" to establish a connection to the local database.
 
 4. Chat with the Database:
 
     -Type your question into the chatbot interface.
+
     -Receive responses generated based on the data in your MySQL database.
-    -View Chat History: The chatbot maintains a history of your interactions. Access previous queries and responses -directly within the chat interface to track and revisit past conversations.
+    
+    -View Chat History: The chatbot maintains a history of your interactions. Access previous queries and responses
+    
+    -directly within the chat interface to track and revisit past conversations.
 
 ## Requirements
 
