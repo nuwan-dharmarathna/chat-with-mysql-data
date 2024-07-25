@@ -19,7 +19,7 @@ This project features a chatbot that leverages OpenAI’s API and LangChain to i
 
    ```bash
    git clone https://github.com/nuwan-dharmarathna/chat-with-mysql-data
-   cd <repository-directory>
+   cd chat-with-mysql-data
     ```
 2. Install the required packages:
 
@@ -35,6 +35,7 @@ This project features a chatbot that leverages OpenAI’s API and LangChain to i
     streamlit run main.py
     ```
 3. Connect to the Database:
+
     -Enter your MySQL database details (host, port, username, password, database name) in the provided fields.
     -Click "Connect" to establish a connection to the local database.
 
@@ -53,7 +54,8 @@ The project dependencies are listed in the `requirements.txt` file. Ensure all p
 Feel free to contribute to this project by submitting issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
 ## References
-    -**alejandro-ao.com:** https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
+
+    - **alejandro-ao.com**: https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/
 
 
 
